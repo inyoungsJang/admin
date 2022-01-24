@@ -17,12 +17,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       home: Scaffold(
-        body: Container(
-            child: Column(
-          children: [
-            Home(),
-          ],
-        )),
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Home(),
+            ],
+          ),
+        ),
       ),
     );
   }

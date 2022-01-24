@@ -10,6 +10,13 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        //상단
+        Placeholder(
+          fallbackHeight: 1000,
+        )
+      ],
+    );
   }
 }
